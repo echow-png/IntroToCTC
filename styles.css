@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 50px 50px 0 50px;
+    margin:50px 50px 0 250px;
     
 
     background-color: bisque;
@@ -12,6 +12,7 @@ body {
     background-image: url("BgElements/pteroBG\ elements.png");
     background-repeat: repeat;
     background-size: 50%;
+    
 }
 
 .tiledBackground {
@@ -20,17 +21,16 @@ body {
   margin: 10px auto -200px auto;
 
   /* border: 2px solid red; */
-
 }
 
 .bigPteroBG {
     background-image: url("BgElements/pteroBG1.png");
     background-size: var(--PteroBGSize);
     background-position: 110px -130px;
+    background-blend-mode: hue;
     margin-left: var(--marginLeftOffset);
     width: var(--PteroBGSize);
     height: var(--PteroBGSize);
- 
    
     /* border: 2px solid orange; */
 }
@@ -69,8 +69,13 @@ h2 {
 
 li {
     font-size: 19px;
-    line-height: 130%;
+    line-height: 150%;
 }
+
+li::marker {
+    color: rgb(213, 159, 114);
+}
+
 
 .backbutton {
     margin-top: 100px;

@@ -1,0 +1,47 @@
+body {
+    cursor: url('cursor2b.png'), auto;
+/*   cursor: ew-resize; */
+}
+
+body:active {
+    cursor: url('cursor2c.png'),auto;
+}
+
+::selection {
+  background: none;
+  color: white;
+  text-shadow: none;
+}
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+
+    letter-spacing: 0.5vw;
+
+/* black outline  */
+    text-shadow:
+    -0.4vw -0.4vw 0 #000,
+    0.4vw -0.4vw 0 #000,
+    -0.4vw 0.4vw 0 #000,
+    0.4vw 0.4vw 0 #000;  
+  
+  
+}
+
+.BG {
+    min-height: 80vh; height:85vh; max-height:85vh;
+    margin: auto;
+/*     border: 2px solid orange; */
+}
+
+.bottomtext {  
+  
+  position:absolute;
+  bottom:2vh;
+  left:0;
+  right:0;
+  margin: 0 0 2vh 0;
+
+}
